@@ -1,0 +1,45 @@
+.home {
+  background-color: rgba(10, 10, 10, 0.4);
+  position: fixed;
+  top: 5vh;
+  left: 94vw;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  transition: 700ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home::before {
+  right: 1vw;
+}
+
+.home:hover {
+  background-color: rgba(10, 10, 10, 0.8);
+  border-radius: 25px 25px 25px 25px;
+  height: 50px;
+  width: 50px;
+}
+
+.content-css-section {
+  height: 550px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box1 {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}
+
+.box2 {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}
